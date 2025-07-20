@@ -1,0 +1,71 @@
+Rubric
+Criteria
+Classifying Emails into Categories
+1. Classifying Emails into Categories
+Emails are classified into one of six predefined categories.
+Points
+Criteria
+Task 1.1 - Top level Summary of Dashboard
+1. Al Identity & Role Definition
+Clearly defines the Al's function as an email assistant.
+2. User Goal Clarity
+The Al accurately understands the user's expectations regarding the output.
+3. Output Format Readability
+The summary clearly expresses key insights without excessive detail.
+Points
+3
+
+Criteria
+Task 1.2 - Summary of Urgent & High priority Emails
+1. Al Identity & Role Definition
+Clearly defines the Al's function as an email assistant.
+2. User Goal Clarity
+Task: Analyze and Prioritize Urgent & High-Priority Emails.
+These emails should be placed first as they require immediate action.
+3. Next Steps Recommendation
+The Al recommends next steps based on the content of the email.
+Points
+Criteria
+Task 1.3 - Summary of Time Sensitive & Deadline Driven Emails
+1. Al Identity & Role Definition
+Clearly defines the Al's function as an email assistant.
+2. User Goal Clarity
+Task: Summarization of the Time-Sensitive and Deadline-Driven Emails.
+3. Next Steps Recommendation
+The Al recommends next steps based on the content of the email.
+Points
+3
+Criteria
+Task 2 - Draft Al Generated Email response for Hight Priority Emails
+1. Al Identity & Role Definition
+Clearly defines the Al's function as an Evaluator.
+2. User Goal Clarity
+Task: Draft an Al-generated response for a High-Priotity email.
+3. Contextual Relevance and Response Completeness
+Al-generated drafts effectively capture the core intent of the original email and address all key points, ensuring no important details are omitted.
+4. Tonality and Professionalism
+The responses maintain appropriate tone and dynamics, aligning with the sender-recipient relationship (e.g., formal, professional, or polite) to ensure clear and respectful communication.
+5. Response Structure
+The response follows a proper email structure
+- Salutation: <Greetings to the Sender>
+- Body: <Clearly conveys the Next Steps, Decisions, or Required Actions in the body of the email>
+- Closing : <Using a Closing Phrase, eg. "Thank you">
+Points
+5
+Criteria
+Task 3 - Evaluation LLM-as-Judge
+1. Al Identity & Role Definition
+Clearly defines the Al's function as an Evaluator.
+2. User Goal Clarity
+Task: Evaluate the prompts based on relevance, clarity, and actionability scores.
+3. Generate Response in the specified Format
+Respond in a specific format containing relevance scores, clarity scores, actionability scores, strengths, improvements, and an overall justification of the Al-generated response.
+Points
+Criteria
+User Recommendations & Suggestions
+1. Observations
+Summarize your observations, including strengths and weaknesses of the use case.
+2. Suggestions for Improvement
+Provide recommendations to improve email efficiency or suggest changes that can enhance this use case.
+Points
+2

@@ -1,0 +1,47 @@
+Business Context:
+As a business leader at Orion Tech Solutions, you ("Alex Carter") oversee multiple software development and IT infrastructure projects. Your responsibilities include coordinating with stakeholders, managing escalations, and ensuring timely deliveries. With hundreds of emails flooding your inbox daily, manually sorting through them is time-consuming and increases the risk of missing critical updates, client escalations, or project approvals.
+
+Objective:
+The goal of this project is to develop a Generative Al-powered system that:
+Summarizes emails into actionable insights using the Yesterbox approach (excluding
+today's emails).
+Prioritizes emails based on urgency, sender, and context. v Draft context-aware responses to reduce manual effort. v Evaluate the drafted context-aware responses using LLM-as-a-Judge.
+
+Tasks & Workflow
+Task 1: Generate a Detailed Summary of Yesterday's Inbox
+Task 1A: Executive Dashboard (Top-Level Summary of Yesterday's Emails)
+Sample Output:
+• Total Emails from Yesterday: 100
+• • Urgent & High-Priority Emails: 10 (Require Immediate Action Today)
+4 Deadline-Driven Emails: 8 (Must Be Addressed Today)
+* Routine Updates & Check-ins: 35 (Review & Acknowledge)
+Non-Urgent & Informational Emails: 45 (Can Be Deferred or Delegated) |
+• - Personal & Social Emails: 22 (Optional Review) |
+• • Spam/Unimportant Emails Filtered Out: 20
+Al Conclusion:
+"You have 18 critical emails from yesterday that require action today. Additionally, there are 35 updates to review at your convenience."|
+Task 1B: Analyze Urgent & High-Priority Emails (• Must-Do First Today)
+Focus on emails that require immediate action and impact critical projects or client relationships.
+Task 1C: Review Deadline-Driven Emails ( Needs Attention Today)
+Identify emails tied to important deadlines and ensure timely responses.
+Task 2: Al-Generated Response Drafts for Critical Email
+For each Urgent & High-priority email or Deadline-Driven email from yesterday, generate an Al-powered response draft for quick review and editing before sending.
+NOTE: Critical Emailsare the combination of Urgent & High-Priority Emails + Deadline-Driven Emails
+Task 3: Validate Al-Generated Results Using the "LLM as a Judge" Technique
+To ensure accuracy and reliability, apply the "LLM as a Judge" technique to evaluate:
+Relevance: How well does thesummaryaddress the input query or task?
+Clarity: How clear and understandable is thesummary?
+Actionability: Does thesummaryprovide clear next steps or actionable information?
+Strengths: Highlight the key strengths of the summary.
+Improvements: Suggest 1-2 areas for improvement.
+Overall Justification: Provide a 2-3 line summary evaluation, including key observations.
+
+
+Submission Guidelines
+1. Jupyter Notebook / Python Script Converted to HTML file format:
+• Implement all tasks in a structured notebook.
+• Ensure clear function names and inline documentation.
+• Once the project is completed and ready for submission, convert the 'ipynb file to 'HTML' file format using these Guidelines.
+• Submit the HTML file formatted notebook before the deadline.
+• Plagiarized submissions will receive zero marks.
+
